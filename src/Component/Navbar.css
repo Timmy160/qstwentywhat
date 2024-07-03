@@ -1,0 +1,43 @@
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  height: 5rem;
+  width: 100vw;
+  background-color: rgb(169, 169, 221);
+  position: fixed;
+}
+
+.Links {
+  display: flex;
+  justify-content: space-between;
+  width: 17rem;
+}
+
+.logo_img {
+  width: 6rem;
+  height: 4.9rem;
+  border-radius: 10px;
+}
+
+.logo_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(146, 19, 40);
+  font-weight: 800;
+  font-stretch: wider;
+  font-style: italic;
+}
+.QsTwentyWhat {
+  background-color: rgb(238, 237, 248);
+  margin-left: 0.5px;
+  width: fit-content;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+}
